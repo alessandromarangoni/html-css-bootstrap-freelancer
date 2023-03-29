@@ -46,6 +46,10 @@ textarea{
     padding-bottom: 5rem;
 }
 
+textarea:focus, .inputContact:focus{
+    outline: none;
+}
+
 footer .i{
     align-items: flex-end;
     font-size: .8rem;
