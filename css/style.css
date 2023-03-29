@@ -3,23 +3,59 @@
     padding:0;
     box-sizing: border-box;
 }
+.avatar{
+    width:200px
+}
 
+nav{
+    background-color: #2c3e50;
+}
 
+section:nth-child(odd){
+    background-color: #1abc9c;
+}
 
-.debug-h-100{height: 100px;}
-.debug-h-300{height: 300px;}
-.debug-h-500{height: 500px;}
+.separator{
+    width:30%;
+}
 
-.chew{
-    width:100px
+.Line{
+    width: 45%;
+    height: 2px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+footer section:first-child{
+    background-color: #3a546d;
+}
+
+.my_cards:hover{
+    transform: scale(1.05);
+    transition: .15s;
 }
 
 .inputContact{
+    padding-bottom: .5rem;
     border: 0;
     border-bottom: 2px solid rgba(0, 0, 0, 0.486);
     width: 100%;
 }
 
-#text-area{
+textarea{
     padding-bottom: 5rem;
+}
+
+footer .i{
+    align-items: flex-end;
+    font-size: .8rem;
+    border-radius: 50%;
+    height: 1.5rem;
+    width: 1.5rem;
+    border: 1px solid rgb(255, 255, 255);
+    margin: .25rem;
+}
+
+footer section:last-child{
+    background-color: #2c3e50;
 }
