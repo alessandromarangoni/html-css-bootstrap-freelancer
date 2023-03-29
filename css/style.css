@@ -38,7 +38,7 @@ footer section:first-child{
 .inputContact{
     padding-bottom: .5rem;
     border: 0;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.486);
+    border-bottom: 1px solid #cccccc;
     width: 100%;
 }
 
